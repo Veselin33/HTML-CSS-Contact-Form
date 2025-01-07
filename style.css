@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 'Source Sans 3', sans-serif;
+}
+
+body, text, input, button, textarea {
+    font: inherit;
+    
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    
+}
+
+
+
+.data h2 {
+    padding-bottom: 2em;
+    opacity: 0.6;
+}
+.user-data {
+    display: flex;
+    gap: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.user-data input {
+    width: 20em;
+    border: none;
+    border-bottom: 1px solid #C2C2C2;
+    padding-bottom: 0.5em;
+    outline: none;
+    
+
+
+}
+
+.message textarea {
+    width: 41.5em;
+    padding-top: 1em;
+    border: none;
+    border-bottom: 1px solid #C2C2C2;
+    outline: none;
+
+}
+
+
+
+input[type="submit"] {
+
+    margin-top: 1em;
+    padding: 0.8em 1.5em;
+    background: #585858;
+    border: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 0.2em;
+}
+
+.form p {
+    padding-top: 3em;
+    font-size: 1.5em;
+    opacity: 0.6;
+}
+
+.follow-contact h2 {
+    padding-left: 2.3em;
+    margin-top: -5em;
+    opacity: 0.6;
+}
+
+.icons {
+    padding-left: 4em;
+    padding-top: 2em;
+    width: 30em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2em;
+    flex-direction: flex-start;
+}
+
+.icons i {
+    font-size: 2em;
+    border: 2px solid #C2C2C2;
+    padding: 0.5em 0.8em;
+    border-radius: 0.15em;
+    color: #585858;
+}
+
+
+
+
+
